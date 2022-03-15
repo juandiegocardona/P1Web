@@ -1,0 +1,68 @@
+
+
+
+#navbarConfig {
+    height: 4em;
+}
+
+
+#Carro{
+    width: 45px; 
+    height: 45px;
+}
+
+#Banner {
+   width: 100%
+}
+
+#containerCards {
+    padding: 2em;
+}
+
+#itemsAdd {
+    padding-left: 1em;
+    padding-right: 1.5em;
+    font-size: 17px;
+}
+
+#titleRestaurant {
+font-family: 'Rochester';
+font-style: normal;
+}
+
+
+#footerText {
+    font-weight: bold;
+}
+
+#itemPrice {
+    font-weight: bold;
+}
+
+#divButtoms {
+    margin-right: 1em;
+}
+
+.imgFood {
+    margin-top: 1em;
+    height: 12em;
+}
+
+#spanTotalItems {
+    font-weight: bold;
+}
+
+.cardItem {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+.btn-order {
+    margin-left: 0.5em;
+    border: 1px orange;
+}
+.btn-row {
+    margin-left: 0.7em;
+}
+.btn-border {
+    border: 1px orange;
+}
