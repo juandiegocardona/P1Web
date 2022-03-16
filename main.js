@@ -52,7 +52,7 @@ function execute (arrayFood) {
         price.setAttribute("id", "itemPrice");
         price.textContent = "$" + item.price;
         let addButton = document.createElement("a");
-        addButton.className = "btn btn-warning btn-item";
+        addButton.className = "btn btn-yellow";
         addButton.setAttribute("type", "button");
         addButton.setAttribute("id", "button-" + category + "-" + item.name);
         addButton.textContent = "Add to cart";
@@ -128,7 +128,7 @@ function execute (arrayFood) {
 //Funcinalidad 4
 
       let plusButton = document.createElement("a");
-      plusButton.className = "btn btn-warning btn-row";
+      plusButton.className = "btn btn-yellow";
       plusButton.textContent = "+";
       plusButton.addEventListener("click", function() {
         tdQty.textContent = ++element.quantity;
@@ -138,7 +138,7 @@ function execute (arrayFood) {
       });
 
       let minusButton = document.createElement("a");
-      minusButton.className = "btn btn-warning btn-row ";
+      minusButton.className = "btn  btn-yellow";
       minusButton.textContent = "-";
       minusButton.addEventListener("click", function() {
         tdQty.textContent = --element.quantity;
@@ -184,7 +184,7 @@ function execute (arrayFood) {
     // Funcionalidad 5
     
     let cancelButton = document.createElement("button");
-    cancelButton.className = "btn btn-danger btn-order";
+    cancelButton.className = "btn btn-cancel";
     cancelButton.textContent = "Cancel";
     cancelButton.setAttribute("data-target", "#cancelModal");
     cancelButton.setAttribute("data-toggle", "modal");
@@ -192,7 +192,7 @@ function execute (arrayFood) {
     // Funcionalidad 6
     
     let confirmButton = document.createElement("a");
-    confirmButton.className = "btn btn-success btn-order";
+    confirmButton.className = "btn btn-confirm";
     confirmButton.textContent = "Confirm order";
     confirmButton.addEventListener("click", function () {
       let i = 1;
@@ -228,13 +228,13 @@ function execute (arrayFood) {
   });
 }
 
+//Funcionalidad 2
 let numItems = 0;
 let itemCar = document.getElementById("itemsAdd");
 function clearCar () {
   itemCar.textContent = (0) + " items";
   numItems = 0;
 }
-
 function countItems(item, quantity) {
   itemCar.textContent = (numItems + 1) + " items";
   let encontrado = quantity.find(elementFood =>  elementFood.food == item.name);
@@ -252,10 +252,6 @@ function countItems(item, quantity) {
   }
   numItems = numItems + 1;
 }
-
-
-//Funcionalidad 2
-
 function addItems(item) {
   selectedItems.push(item);
 }

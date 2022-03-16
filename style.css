@@ -1,29 +1,82 @@
-#navbarConfig {
-    height: 4em;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rochester&display=swap');
+
 
 #Carro{
-    width: 45px; 
-    height: 45px;
+    width: 80px;
+    height: 81px;
+    left: 1257px;
+    top: 43px;
 }
 
 #Banner {
-   width: 100%
-}
-
-#containerCards {
-    padding: 2em;
-}
-
-#itemsAdd {
-    padding-left: 1em;
-    padding-right: 1.5em;
-    font-size: 17px;
+    width: 1440px;
+    height: 344px;
+    left: 0px;
+    top: 149px;
 }
 
 #title {
 font-family: 'Rochester',cursive;
 font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+}
+
+.btn-yellow {
+    background: #F2A950;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+.btn-confirm{
+    background: #708C32;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-cancel{
+    background: #8C162C;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-yes{
+
+    background: #708C32;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-no{
+
+    background: #8C162C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 #titleCategory{
@@ -56,14 +109,16 @@ font-style: normal;
     margin-top: 2em;
     margin-left: 1em;
 }
-.btn-order {
-    margin-left: 0.5em;
-    border: 1px black;
+#containerCards {
+    padding: 2em;
 }
-.btn-row {
-    margin-left: 0.7em;
-    border: 1px black;
+
+#itemsAdd {
+    padding-left: 1em;
+    padding-right: 1.5em;
+    font-size: 17px;
 }
-.btn-border {
-    border: 1px black;
+#navbarConfig {
+    height: 4em;
 }
+
