@@ -52,7 +52,7 @@ function execute (arrayFood) {
         price.setAttribute("id", "itemPrice");
         price.textContent = "$" + item.price;
         let addButton = document.createElement("a");
-        addButton.className = "btn btn-yellow";
+        addButton.className = "btn btn-yellowCart";
         addButton.setAttribute("type", "button");
         addButton.setAttribute("id", "button-" + category + "-" + item.name);
         addButton.textContent = "Add to cart";

@@ -45,6 +45,13 @@ line-height: 28px;
     box-sizing: border-box;
     color: #FFFFFF;
 }
+.btn-yellowCart {
+    background: #F2A950;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    color: #000000;
+    font-weight: bold;
+}
 .btn-confirm{
     background: #708C32;
     border: 1px solid #000000;
