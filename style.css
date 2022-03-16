@@ -1,10 +1,6 @@
-
-
-
 #navbarConfig {
     height: 4em;
 }
-
 
 #Carro{
     width: 45px; 
@@ -25,11 +21,15 @@
     font-size: 17px;
 }
 
-#titleRestaurant {
-font-family: 'Rochester';
+#title {
+font-family: 'Rochester',cursive;
 font-style: normal;
 }
 
+#titleCategory{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 #footerText {
     font-weight: bold;
@@ -58,11 +58,12 @@ font-style: normal;
 }
 .btn-order {
     margin-left: 0.5em;
-    border: 1px orange;
+    border: 1px black;
 }
 .btn-row {
     margin-left: 0.7em;
+    border: 1px black;
 }
 .btn-border {
-    border: 1px orange;
+    border: 1px black;
 }

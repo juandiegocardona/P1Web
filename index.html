@@ -15,7 +15,7 @@
         <div class="container-fluid">
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="col mt-3">
-                    <h3 id="titleRestaurant">Restaurant & Lounge</h3>
+                    <h3 id="title">Restaurant & Lounge</h3>
                 </div>
                 <div class="col d-flex justify-content-end">
                     <a href="#" id="carItems"><img src="./assets/carro.png" alt="Carro" id="Carro"></a>
@@ -63,6 +63,26 @@
         </div>
         <div id="optionsItems">
             <!-- -->
+        </div>
+    </div>
+     <!-- Modal -->
+     <div class="modal fade" id="cancelModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cancel the order</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                Are you sure about cancelling the order?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success btn-border" data-dismiss="modal" id="buttonYes">Yes, I want to cancel the order</button>
+                    <button type="button" class="btn btn-danger btn-border" data-dismiss="modal">No, I want to continue adding products</button>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Footer -->
